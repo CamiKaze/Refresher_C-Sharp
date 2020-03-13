@@ -25,13 +25,13 @@ namespace ConditionalStatements
         {
             var isGoldCustomer = true;
             var price = (isGoldCustomer) ? 19.95f : 29.95f;
-            
+
             System.Console.WriteLine(price);
         }
         private static void SeasonalSwitch()
         {
             var season = Season.Autumn;
-            
+
             switch (season)
             {
                 case Season.Autumn:
@@ -47,10 +47,10 @@ namespace ConditionalStatements
         {
             System.Console.WriteLine("Please enter a number between 1 and 10.");
             var userInput = Convert.ToInt32(Console.ReadLine());
-            
+
             if (userInput < 10 && userInput > 1)
             {
-                System.Console.WriteLine(string.Format("Valid: The entered value is {0}", userInput));
+                System.Console.WriteLine($"Valid: The entered value is {userInput}");
             }
             else
             {
@@ -61,34 +61,34 @@ namespace ConditionalStatements
         {
             System.Console.WriteLine("Addition: Please enter the first number");
             var firstValue = Convert.ToInt32(Console.ReadLine());
-            
+
             System.Console.WriteLine("Addition: Please enter the second number");
             var secondValue = Convert.ToInt32(Console.ReadLine());
-            
+
             var maxValue = (firstValue > secondValue) ? firstValue : secondValue;
-            
-            System.Console.WriteLine("The Max of the two numbers are: " + maxValue);
+
+            System.Console.WriteLine($"The Max of the two numbers are: {maxValue}");
         }
         private static void PortraitLandscapeSelection()
         {
             System.Console.WriteLine("Please enter the width for your picture frame.");
             var width = Convert.ToInt32(Console.ReadLine());
-            
+
             System.Console.WriteLine("Please enter the height for your picture frame.");
             var height = Convert.ToInt32(Console.ReadLine());
-            
+
             var orientation = (width > height) ? ImageOrientation.Landscape : ImageOrientation.Portrait;
-            
-            System.Console.WriteLine(string.Format("Image orientation is {0}", orientation));
+
+            System.Console.WriteLine($"Image orientation is {orientation}");
         }
         private static void SpeedTest()
         {
             System.Console.WriteLine("What is the speed limit?");
-            var speedLimitValue = Console.ReadLine();
-            var speedLimit = Convert.ToInt32(speedLimitValue);
+            var speedLimit = Convert.ToInt32(Console.ReadLine());
+
             System.Console.WriteLine("What was the speed of the car?");
-            var carSpeedValue = Console.ReadLine();
-            var carSpeed = Convert.ToInt32(carSpeedValue);
+            var carSpeed = Convert.ToInt32(Console.ReadLine());
+
             if (carSpeed < speedLimit)
             {
                 System.Console.WriteLine("OK");
@@ -97,16 +97,18 @@ namespace ConditionalStatements
             {
                 var demeritTotal = carSpeed - speedLimit;
                 var demeritPoints = demeritTotal / 5;
+
                 if (demeritPoints > 12)
                 {
                     System.Console.WriteLine("License Suspended");
                 }
                 else
                 {
-                    System.Console.WriteLine(demeritPoints + " Demerit points incurred");
+                    System.Console.WriteLine($"{demeritPoints} Demerit points incurred");
                 }
             }
         }
+
         static void Main(string[] args)
         {
             // If statements.
