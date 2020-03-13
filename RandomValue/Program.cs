@@ -12,7 +12,7 @@ namespace RandomValue
                 System.Console.WriteLine(random.Next(1, 10));
             }
 
-const int paswwordLength = 10;
+            const int paswwordLength = 10;
             var buffer = new char[paswwordLength];
 
             for (var i = 0; i < paswwordLength; i++)
