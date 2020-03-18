@@ -4,6 +4,8 @@ namespace ConditionalStatements
 {
     class Program
     {
+
+        // If statements for seasons
         private static void TimeOfDay()
         {
             int hour = 10;
@@ -21,6 +23,8 @@ namespace ConditionalStatements
                 System.Console.WriteLine("It's evening.");
             }
         }
+
+        // Switch statement for seasons
         private static void IfStatementTernary()
         {
             var isGoldCustomer = true;
@@ -43,6 +47,8 @@ namespace ConditionalStatements
                     break;
             }
         }
+
+        // Check if user input is between 1 and 10
         private static void NumberValidity()
         {
             System.Console.WriteLine("Please enter a number between 1 and 10.");
@@ -57,6 +63,7 @@ namespace ConditionalStatements
                 System.Console.WriteLine("Invalid: User input must be between 1 and 10");
             }
         }
+        // Find the maximum value between two user inputs
         private static void UserInputMax()
         {
             System.Console.WriteLine("Addition: Please enter the first number");
@@ -69,6 +76,7 @@ namespace ConditionalStatements
 
             System.Console.WriteLine($"The Max of the two numbers are: {maxValue}");
         }
+        // Check image orientation between two user values
         private static void PortraitLandscapeSelection()
         {
             System.Console.WriteLine("Please enter the width for your picture frame.");
@@ -81,6 +89,7 @@ namespace ConditionalStatements
 
             System.Console.WriteLine($"Image orientation is {orientation}");
         }
+        // Check the speed of a vehicle and penalise if user went above the threshold
         private static void SpeedTest()
         {
             System.Console.WriteLine("What is the speed limit?");
