@@ -4,6 +4,7 @@ namespace Iteration
 {
     class Program
     {
+        // Iterating through a loop
         private static void IncrementForLoop()
         {
             for (var i = 1; i <= 10; i++)
@@ -14,6 +15,7 @@ namespace Iteration
                 }
             }
         }
+        // Iterating through a loop
         private static void DecrementForLoop()
         {
             for (var i = 10; i >= 1; i--)
@@ -24,6 +26,7 @@ namespace Iteration
                 }
             }
         }
+        // Iterating through a loop and listing the characters
         private static void IterateString()
         {
             var name = "Cameron Smith";
@@ -33,6 +36,8 @@ namespace Iteration
                 System.Console.WriteLine(character);
             }
         }
+
+        // Iterating through an array of numbers
         private static void IterateArray()
         {
             var numbers = new int[] { 1, 2, 3, 4 };
@@ -42,6 +47,7 @@ namespace Iteration
                 System.Console.WriteLine(number);
             }
         }
+        // Displaying a value from user input
         private static void WhileConditionNotMet()
         {
             while (true)
