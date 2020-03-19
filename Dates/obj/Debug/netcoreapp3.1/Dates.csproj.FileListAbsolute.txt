@@ -1,0 +1,11 @@
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\bin\Debug\netcoreapp3.1\Dates.exe
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\bin\Debug\netcoreapp3.1\Dates.deps.json
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\bin\Debug\netcoreapp3.1\Dates.runtimeconfig.json
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\bin\Debug\netcoreapp3.1\Dates.runtimeconfig.dev.json
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\bin\Debug\netcoreapp3.1\Dates.dll
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\bin\Debug\netcoreapp3.1\Dates.pdb
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\obj\Debug\netcoreapp3.1\Dates.csprojAssemblyReference.cache
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\obj\Debug\netcoreapp3.1\Dates.AssemblyInfoInputs.cache
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\obj\Debug\netcoreapp3.1\Dates.AssemblyInfo.cs
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\obj\Debug\netcoreapp3.1\Dates.dll
+C:\Users\csmith\source\git\Microsoft\Courses\Refresher_C-Sharp\Dates\obj\Debug\netcoreapp3.1\Dates.pdb
