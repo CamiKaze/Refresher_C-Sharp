@@ -35,6 +35,10 @@ namespace WorkingWithText
 
             float price = 29.95f;
             System.Console.WriteLine(price.ToString("C0"));
+
+            var sentence = "This is going to be a really really really really really really really really really long text";
+            var summary = StringUtility.SummarizeText(sentence, 25);
+            System.Console.WriteLine(summary);
         }
     }
 }
