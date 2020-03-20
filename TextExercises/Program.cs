@@ -107,7 +107,6 @@ namespace TextExercises
             }
 
             System.Console.WriteLine(count);
-
         }
     }
 }
