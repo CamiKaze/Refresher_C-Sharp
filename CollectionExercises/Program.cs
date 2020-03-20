@@ -78,7 +78,6 @@ namespace CollectionExercises
             /*Write a program and ask the user to enter 5 numbers. If a number has been previously entered,
             display an error message and ask the user to re-try. Once the user successfully enters 5 unique
             numbers, sort them and display the result on the console.*/
-
             int i = 0;
             var uniqueNumbers = new List<int>();
 
@@ -104,9 +103,6 @@ namespace CollectionExercises
                 uniqueNumbers.ForEach(Console.WriteLine);
             else
                 System.Console.WriteLine($"{isUnique}: The numbers entere is not unique. Please try again");
-
-
-
 
             /*Write a program and ask the user to continuously enter a number or type "Quit" to exit.
             The list of numbers may include duplicates. Display the unique numbers that the user has entered*/
