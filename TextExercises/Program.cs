@@ -8,6 +8,21 @@ namespace TextExercises
     {
         static void Main(string[] args)
         {
+
+            System.Console.WriteLine("Please write a Word.");
+            var englishWord = Console.ReadLine().ToLower();
+            var vowels = new List<char>(new char[] { 'a', 'e', 'i', 'o', 'u' });
+            var count = 0;
+
+            foreach (var character in englishWord)
+            {
+                if (vowels.Contains(character))
+                    count++;
+            }
+
+            System.Console.WriteLine(count);
+
+
             /* Write a program and ask the user to enter a few numbers separated by a hyphen. Work out if
             the numbers are consecutive. For example, if the input is "5-6-7-8-9" or "20-19-18-17-16",
             display a message: "Consecutive"; otherwise, display "Not Consecutive".*/
@@ -93,20 +108,7 @@ namespace TextExercises
 
             /* Write a program and ask the user to enter an English word. Count the number of vowels (a, e, o, u, i) in the word.
             So, if the user enters "inadequate", the program should display 6 on the console. */
-            System.Console.WriteLine("Please write a Word.");
-            var englishWord = Console.ReadLine().ToLower();
-            var count = 0;
 
-            foreach (char c in englishWord)
-            {
-                if (c.Equals('a')) { count++; }
-                if (c.Equals('e')) { count++; }
-                if (c.Equals('i')) { count++; }
-                if (c.Equals('o')) { count++; }
-                if (c.Equals('u')) { count++; }
-            }
-
-            System.Console.WriteLine(count);
         }
     }
 }
